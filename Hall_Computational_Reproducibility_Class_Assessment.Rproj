@@ -1,13 +1,30 @@
-Version: 1.0
+---
+title: "ComputationalRepro21_VilcekHW"
+author: "Nicole Hall"
+date: "11/1/2021"
+output: html_document
+---
 
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-EnableCodeIndexing: Yes
-UseSpacesForTab: Yes
-NumSpacesForTab: 2
-Encoding: UTF-8
+## Homework
 
-RnwWeave: Sweave
-LaTeX: pdfLaTeX
+1) Please explain 1 of Wilson et. al's suggestions for good practices in computational reproducibility:
+
+One of the most important things that is discussed within Wilson et al. is that it is crucial to maintain proper data management practices. This includes saving not only the raw forms of your data abut  also any intermediate steps as well. Additionally, one must document each and every step performed within their analysis in hopes of making their work more easily reproducible among other scientists. 
+
+
+
+2) Please find the square root of 4 to the 13th power, writing your code in the gray box below so that it executes and provides the answer. Hit the play button to make sure it works:
+
+```{r}
+#Define x
+
+x = 4
+
+sqrt(x^13)
+```
+
+3) Save your file and add it to your GitHub repository at: https://classroom.github.com/a/WO52_vGE
